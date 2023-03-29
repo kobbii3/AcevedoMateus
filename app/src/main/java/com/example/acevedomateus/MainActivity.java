@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void cargarDatos(){
+        //crear productos
         Producto producto1 = new Producto();
         producto1.setNombre("Computador HP");
         producto1.setPrecio(8000000.0);
@@ -53,9 +54,15 @@ public class MainActivity extends AppCompatActivity {
 
         Producto producto2 = new Producto("Teclado",150000.0,"https://img2.freepng.es/20180202/ewe/kisspng-computer-keyboard-computer-mouse-computer-hardware-keyboard-png-clipart-5a7537a97d5f00.1614853815176314015135.jpg");
         Producto producto3 = new Producto("Mouse",100000.0,"https://pngimg.com/d/computer_mouse_PNG7700.png");
-
+        //inicializar los productos al arraylist
         listaPrincipalProductos = new ArrayList<>();
         //agregar los productos
+        listaPrincipalProductos.add(producto1);
+        listaPrincipalProductos.add(producto2);
+        listaPrincipalProductos.add(producto3);
+        listaPrincipalProductos.add(producto1);
+        listaPrincipalProductos.add(producto2);
+        listaPrincipalProductos.add(producto3);
         listaPrincipalProductos.add(producto1);
         listaPrincipalProductos.add(producto2);
         listaPrincipalProductos.add(producto3);
