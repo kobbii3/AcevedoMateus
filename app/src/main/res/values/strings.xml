@@ -8,4 +8,8 @@
     <string name="correo_electronico">Correo Electronico</string>
     <string name="contrase_a">Contraseña</string>
     <string name="iniciar_sesi_n">Iniciar Sesión</string>
+    <string name="nombre">Nombre</string>
+    <string name="precio">Precio</string>
+    <string name="crear">Crear</string>
+    <string name="url_imagen">URL Imagen</string>
 </resources>
