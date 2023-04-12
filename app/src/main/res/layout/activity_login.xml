@@ -38,7 +38,7 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/et_email"
+            android:id="@+id/et_user_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="70dp"
@@ -47,14 +47,15 @@
             android:background="@drawable/shape_edit_text"
             android:ems="10"
             android:gravity="center"
+            android:hint="@string/correo_electronico"
             android:inputType="textPersonName"
             android:padding="5dp"
-            android:text="@string/correo_electronico"
             android:textColor="@color/white"
+            android:textColorHint="@color/white"
             android:textSize="24sp" />
 
         <EditText
-            android:id="@+id/et_precio"
+            android:id="@+id/et_user_contraseña"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="70dp"
@@ -63,10 +64,11 @@
             android:background="@drawable/shape_edit_text"
             android:ems="10"
             android:gravity="center"
+            android:hint="@string/contrase_a"
             android:inputType="textPersonName"
             android:padding="5dp"
-            android:text="@string/contrase_a"
             android:textColor="@color/white"
+            android:textColorHint="@color/white"
             android:textSize="24sp" />
 
         <Button
@@ -77,6 +79,7 @@
             android:layout_marginTop="50dp"
             android:layout_marginRight="80dp"
             android:background="@drawable/shape_button"
+            android:onClick="clickIniciarSesion"
             android:text="@string/iniciar_sesi_n" />
 
     </LinearLayout>
