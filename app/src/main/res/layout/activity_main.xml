@@ -56,6 +56,7 @@
                 android:layout_marginRight="8dp"
                 android:background="@drawable/shape_edit_text"
                 android:backgroundTint="@color/white"
+                android:onClick="clickAgregarProducto"
                 android:text="@string/agregar_producto" />
 
             <androidx.recyclerview.widget.RecyclerView

@@ -38,7 +38,7 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/et_user_login"
+            android:id="@+id/et_nombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="70dp"
@@ -55,7 +55,7 @@
             android:textSize="24sp" />
 
         <EditText
-            android:id="@+id/et_user_contraseña"
+            android:id="@+id/et_precio"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="70dp"

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "288208637912",
+    "project_id": "acevedomateus4semestre",
+    "storage_bucket": "acevedomateus4semestre.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288208637912:android:403bedeb9085c266d52cad",
+        "android_client_info": {
+          "package_name": "com.example.acevedomateus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "288208637912-k4dq90nnmb6t97mtusrkk79gfu7vagin.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcy0_udTXhAxDmtS8vwax4zj27Q0tsvPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "288208637912-k4dq90nnmb6t97mtusrkk79gfu7vagin.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

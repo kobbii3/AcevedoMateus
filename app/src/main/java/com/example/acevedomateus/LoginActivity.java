@@ -31,8 +31,8 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void referenciar(){
-        etUsuario = findViewById(R.id.et_user_login);
-        etPassword = findViewById((R.id.et_user_contraseña));
+        etUsuario = findViewById(R.id.et_nombre);
+        etPassword = findViewById((R.id.et_precio));
     }
 
     public void clickIniciarSesion(View view){
